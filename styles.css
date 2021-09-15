@@ -8,7 +8,9 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-   
+   hr{
+       margin:3rem 0rem;
+   }
 
 /**container**/
 .container{
@@ -22,19 +24,20 @@ body{
 }
 .link{
    text-decoration:none;
-    padding:0.5rem 1rem;
+    padding:0.5rem  1rem;
+    margin-right: 0.5rem;
 }
 
 .link-primary{
     background-color: var(--primary-color);
-    border-radius: 1rem;
-   border: 3px solid var(--primary-color);
+    border-radius: 0.5rem;
+   border: 2px solid var(--primary-color);
    color: cornsilk;
 }
 .link-secondary{
-    background-color: var(--primary-color);
-    border-radius: 1rem;
-    border:3px solid var(--primary-color);
-    color: white;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border:2px solid var(--primary-color);
+    
 
 }
