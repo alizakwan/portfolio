@@ -126,6 +126,10 @@ p {
   border-top-left-radius: 2rem;
 }
 
+.footer-bg{
+  background-color: var(--off-white-color);
+}
+
 .footer .link {
   color: white;
 }
