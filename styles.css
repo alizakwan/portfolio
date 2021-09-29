@@ -51,7 +51,7 @@ hr {
   display: inline;
 }
 
-ul{
+ul {
   margin: 0;
   padding: 0;
 }
@@ -125,9 +125,38 @@ p {
   border-top-right-radius: 2rem;
   border-top-left-radius: 2rem;
 }
+.project-card {
+  border: 1px gray solid;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+.project-cta {
+  display: flex;
+  gap: 1rem;
+}
 
-.footer-bg{
+.project-list-section {
+  padding: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.project-list-section .project-description{
+  margin: 0.5rem 0;
+}
+
+.project-list-section .project-title {
+  margin: 0;
+}
+.footer-bg {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
   background-color: var(--off-white-color);
+}
+.footer-padding {
+  height: 10rem;
 }
 
 .footer .link {
